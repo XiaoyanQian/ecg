@@ -1,0 +1,11 @@
+network:
+  free_layers: 6 # set 12 to freeze all layer in bert
+
+  num_leads: 12
+  ecg_model: vit_tiny
+
+  text_model: ncbi/MedCPT-Query-Encoder
+  feature_dim: 768
+  projection_head:
+    mlp_hidden_size: 256
+    projection_size: 256
