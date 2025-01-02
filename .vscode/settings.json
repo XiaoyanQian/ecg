@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "__pycache__": true,
+    },
+    "explorer.compactFolders": false,
+    "cSpell.words": [
+        "cmap",
+        "cudatoolkit",
+        "downconv",
+        "ECGCLIP",
+        "fromarray",
+        "GELU",
+        "loadmat",
+        "opencv",
+        "pooler",
+        "torchaudio",
+        "torchvision"
+    ],
+    "autopep8.args": [
+        "--max-line-length=140"
+    ]
+}
